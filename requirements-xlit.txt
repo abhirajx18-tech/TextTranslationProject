@@ -1,0 +1,27 @@
+# Optional helper environment for IndicXlit name transliteration (Python 3.10).
+# Install in a SEPARATE environment, in this order (see README):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r requirements-xlit.txt
+#   pip install fairseq==0.12.2 --no-deps
+#   pip install ai4bharat-transliteration --no-deps
+omegaconf>=2.1
+hydra-core
+bitarray
+cython
+numpy
+regex
+sacrebleu
+tqdm
+sentencepiece
+cffi
+sacremoses
+pydload
+ujson
+flask
+flask-cors
+gevent
+indic-nlp-library
+mock
+pandas
+pyarrow
+tensorboardX

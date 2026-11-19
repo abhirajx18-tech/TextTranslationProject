@@ -1,0 +1,26 @@
+# environments
+nmt-env/
+xlit-env/
+venv/
+.venv/
+
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# large files (host the model on Hugging Face instead, see README)
+models/
+data/processed/train_en_hi.csv
+data/processed/val_en_hi.csv
+data/processed/test_raw_en_hi.csv
+*.safetensors
+*.bin
+*.pt
+
+# local cache created by the app
+auto_names.json
+
+# OS
+.DS_Store
+Thumbs.db
